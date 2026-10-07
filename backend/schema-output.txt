@@ -1,0 +1,33 @@
+psql:database/schema.sql:32: ERROR:  relation "users" already exists
+psql:database/schema.sql:51: ERROR:  relation "wards" already exists
+psql:database/schema.sql:75: ERROR:  relation "areas" already exists
+psql:database/schema.sql:109: ERROR:  column "user_id" referenced in foreign key constraint does not exist
+psql:database/schema.sql:138: ERROR:  column "user_id" referenced in foreign key constraint does not exist
+psql:database/schema.sql:173: ERROR:  relation "vehicles" already exists
+psql:database/schema.sql:210: ERROR:  column "area_id" referenced in foreign key constraint does not exist
+psql:database/schema.sql:237: ERROR:  relation "routes" already exists
+psql:database/schema.sql:276: ERROR:  relation "stops" does not exist
+psql:database/schema.sql:321: ERROR:  relation "schedules" already exists
+psql:database/schema.sql:376: ERROR:  relation "drivers" does not exist
+psql:database/schema.sql:430: ERROR:  relation "assignments" does not exist
+psql:database/schema.sql:475: ERROR:  relation "tracking_sessions" does not exist
+psql:database/schema.sql:523: ERROR:  relation "assignments" does not exist
+psql:database/schema.sql:556: ERROR:  relation "assignments" does not exist
+psql:database/schema.sql:623: ERROR:  relation "citizen_profiles" does not exist
+psql:database/schema.sql:656: ERROR:  column "user_id" referenced in foreign key constraint does not exist
+psql:database/schema.sql:664: ERROR:  relation "idx_users_role" already exists
+psql:database/schema.sql:667: ERROR:  relation "idx_areas_ward" already exists
+psql:database/schema.sql:670: ERROR:  relation "stops" does not exist
+psql:database/schema.sql:673: ERROR:  relation "route_stops" does not exist
+psql:database/schema.sql:676: ERROR:  relation "route_stops" does not exist
+psql:database/schema.sql:679: ERROR:  relation "idx_schedules_route" already exists
+psql:database/schema.sql:682: ERROR:  relation "assignments" does not exist
+psql:database/schema.sql:685: ERROR:  relation "assignments" does not exist
+psql:database/schema.sql:688: ERROR:  relation "assignments" does not exist
+psql:database/schema.sql:691: ERROR:  relation "tracking_sessions" does not exist
+psql:database/schema.sql:694: ERROR:  relation "tracking_sessions" does not exist
+psql:database/schema.sql:697: ERROR:  relation "gps_locations" does not exist
+psql:database/schema.sql:700: ERROR:  relation "collection_events" does not exist
+psql:database/schema.sql:703: ERROR:  relation "complaints" does not exist
+psql:database/schema.sql:706: ERROR:  relation "complaints" does not exist
+psql:database/schema.sql:709: ERROR:  relation "notifications" does not exist
